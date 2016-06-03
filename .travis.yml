@@ -1,5 +1,6 @@
 language: node_js
 node_js:
   - "0.12"
-after_success:
-  - surge --domain newjerseydelawareyouth.com
+deploy:
+  provider: surge
+  domain: newjerseydelawareyouth.com
