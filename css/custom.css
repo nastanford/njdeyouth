@@ -1,0 +1,257 @@
+body {
+	font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+body, .container, .row, section {
+	overflow-x: hidden;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+	underline: none;
+}
+
+.logo {
+	height: 95px;
+	padding: 10px;
+}
+.logo img {
+	height: 75px;
+}
+
+.navbar .navbar-toggle {
+	margin-top:30px;
+}
+
+.navbar-default {
+	background-color: #FFF;
+}
+
+.navbar-nav {
+	text-transform: uppercase;
+}
+
+ul.nav.navbar-nav a {
+	color: #555;
+}
+
+.business-header {
+	margin-top: 45px;
+	padding-bottom: 200px;
+}
+
+.team-pics {
+	margin-top: 40px;
+}
+
+.team-pics .col-sm-4,.team-pics .col-sm-6 {
+	text-align: center;
+}
+.team-pics h2 {
+	padding: 5px 0 0 0;
+	margin: 5px;
+}
+
+.team-pics i {
+	font-size: 2em;
+}
+.team-pics p {
+	font-size: 1.25em;
+}
+
+.team-pics a {
+	color: #333;
+}
+
+.team-pics a:hover,.team-pics a:visited {
+	color: #777;
+	text-decoration: none;
+}
+
+.tagline {
+	text-align: center;
+	font-size:4em;
+}
+
+.sub-tagline {
+	font-size: 1.25em;
+	color: #FFF;
+	text-align: center;
+	text-shadow: 0 0 10px #000;
+}
+.sub-tagline-icons {
+	font-size: 4em;
+	text-align: center;
+	margin: 0 auto;
+	text-shadow: 0 0 10px #000;
+}
+
+.sub-tagline-icons a, .sub-tagline-icons a:hover, .sub-tagline-icons a:visited {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.sub-tagline-icons i {
+	padding: 15px;
+}
+
+.img-circle {
+	width: 300px;
+}
+
+.sfc {
+	background-color: #f3c811;
+}
+
+.sfc h1, .sfc h2, .sfc h3, .sfc h4 {
+	color: #FFF;
+	text-align: center;
+}
+
+.sfc ul {
+	color: #FFF;
+	font-size: 1.5em;
+	display: block;
+	width: 75%;
+	margin: 0 auto;
+   position: relative;
+}
+
+.sfc h1 {
+	font-size: 5em;
+}
+
+.sfc-theme {
+	font-size: 4em;
+	color: #FFF;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.sfc img {
+	width: 250px;
+	margin: 30px auto;
+	display: block;
+
+}
+
+.youth-camp {
+    background: url('../../images/njdelyouthcamp.jpg') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.team, .sfc, .youth-camp {
+	padding: 5px 0 20px 0;
+}
+
+.youth-camp h2 {
+	font-size: 4em;
+	color: #FFF;
+	text-align: center;
+	text-shadow: 0 0 15px #000;
+}
+
+.youth-camp p {
+	text-align: center;
+	color: #FFF;
+	font-size: 2em;
+	text-shadow: 0 0 15px #000;
+}
+
+.youth-camp a {
+	color: #FFF;
+	text-decoration: underline;
+}
+
+.youth-camp a:hover,.youth-camp a:visited {
+	color: #DDD;
+	text-decoration: underline;
+}
+
+.youth-camp img {
+	margin:0 auto;
+	display: block;
+	width: 60%;
+	box-shadow: 0 0 15px #000;
+}
+
+.contact h2 {
+	text-align: center;
+}
+
+.contact form {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.contact button {
+	width: 100%;
+}
+
+.contact .btn-primary {
+	border-radius: 0;
+}
+
+.footer {
+	margin-top: 20px;
+	background-color: #cfcfcf;
+	padding: .75em 0 .25em 0;
+	font-size: 2em;
+}
+
+.footer-icons a,.footer-icons a:hover,.footer-icons a:visited {
+	color: #777;
+	font-size: 2em;
+}
+.footer-icons a:hover, a:hover:visited {
+	text-decoration:  none;
+	color: #222
+}
+
+.alert {
+	margin-top: 15px;
+}
+@media (min-width: 768px) {
+	.navbar-nav {
+		float: left;
+		margin: 0;
+		margin-top: 25px;
+	}
+	.tagline {
+		margin-top: 175px;
+	}
+}
+@media (max-width: 768px) {
+	.navbar-nav {
+		width:100%;
+		text-align: left;
+	}
+	.tagline {
+		margin-top: 75px;
+	}
+	.business-header {
+		padding-bottom:50px;
+	}
+	.team-pics i {
+		margin-bottom: 15px;
+	}
+	.contact form {
+		width: 100%;
+	}
+
+	.youth-camp img {
+		width: 90%;
+	}
+	.sfc ul {
+		width: 100%
+	}
+	.youth-camp p {
+		font-size: 1em;
+	}
+}
