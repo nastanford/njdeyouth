@@ -217,6 +217,10 @@ ul.nav.navbar-nav a {
 .alert {
 	margin-top: 15px;
 }
+
+input {
+    font-family: arial;
+}
 @media (min-width: 768px) {
 	.navbar-nav {
 		float: left;
