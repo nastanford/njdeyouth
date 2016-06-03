@@ -1,4 +1,2 @@
 deploy:
   provider: surge
-  project: ./
-  domain: newjerseydelawareyouth.com
