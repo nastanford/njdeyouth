@@ -8,12 +8,12 @@ var rename = require('gulp-rename');
 var replace = require('gulp-replace');
 var concat = require('gulp-concat');
 var notify = require('gulp-notify');
-var minifycss = require('gulp-minify-css');
+var cleancss = require('gulp-clean-css');
 var plumber = require('gulp-plumber');
 var gutil = require('gulp-util');
 var base64 = require('gulp-base64');
-// var imagemin = require('gulp-imagemin');
 var browsersync = require('browser-sync');
+var sourcemaps = require('gulp-sourcemaps');
 
 // error function for plumber
 var onError = function (err) {
@@ -74,7 +74,9 @@ gulp.task('browsersync-reload', function () {
 gulp.task('css', function() {
   return gulp.src('css/*.css')
     .pipe(concat('build.min.css'))
-    .pipe(minifycss())
+    .pipe(cleancss())
+    .pipe(sourcemaps.init())
+    .pipe(sourcemaps.write('./'))
     .pipe(gulp.dest('dist/css/'))
     .pipe(browsersync.reload({ stream:true }))
     .pipe(notify({ message: 'Styles task complete' }));
