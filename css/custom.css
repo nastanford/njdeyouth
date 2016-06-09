@@ -1,5 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,500);
 body {
-	font-family: 'Alegreya Sans SC', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
 }
 
 body, .container, .row, section {
@@ -73,6 +75,7 @@ ul.nav.navbar-nav a {
 .tagline {
 	text-align: center;
 	font-size:4em;
+	font-weight: 500;
 }
 
 .sub-tagline {
@@ -123,19 +126,21 @@ ul.nav.navbar-nav a {
 	font-size: 5em;
 }
 
-.sfc-theme {
-	font-size: 4em;
-	color: #FFF;
-	width: 100%;
-	margin: 0 auto;
-	text-align: center;
-}
-
 .sfc img {
 	width: 250px;
-	margin: 30px auto;
-	display: block;
+	margin: 40px 0 10px 0;
+	display: inline;
+	padding-right: 20px;
+}
 
+.sfc-logo {
+    text-align: center;
+}
+
+img.sfc-theme {
+	border: 2px solid #FFF;
+	width: 500px;
+	text-align: center;
 }
 
 .youth-camp {
