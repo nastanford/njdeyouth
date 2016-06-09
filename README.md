@@ -1,5 +1,5 @@
 # New Jersey Delaware Youth Dept
-[[https://travis-ci.org/nathanstanford2/njdeyouth.svg?branch=master|alt=build-status]]
+![build status](https://travis-ci.org/nathanstanford2/njdeyouth.svg?branch=master)
 
 ## Credits
 Nathan Stanford
