@@ -139,7 +139,7 @@ ul.nav.navbar-nav a {
 
 img.sfc-theme {
 	border: 2px solid #FFF;
-	width: 500px;
+	width: 40%;
 	text-align: center;
 }
 
@@ -262,5 +262,8 @@ input {
 	}
 	.youth-camp p {
 		font-size: 1em;
+	}
+	img.sfc-theme {
+		width: 95%;
 	}
 }
