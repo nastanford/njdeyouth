@@ -94,9 +94,8 @@ gulp.task('css', function() {
 //Concatenate and Minify JS task
 gulp.task('scripts', function() {
   return gulp.src(['js/jquery.js','js/*.js'])
-    .pipe(concat())
+    .pipe(concat('build.min.js'))
     .pipe(gulp.dest('dist/js'))
-    .pipe(rename('build.min.js'))
     .pipe(stripdebug())
     .pipe(uglify())
     .pipe(gulp.dest('dist/js'))
